@@ -1,6 +1,6 @@
 # RayTraceAntiXray
 
-**فارسی** · [English](README_en.md)
+[English](README_en.md) · **فارسی**
 
 پلاگین Paper برای رهگیری پرتو (Ray Tracing) چندنخی و ناهمگام در سمت سرور جهت مخفی‌سازی سنگ‌های معدن (Ores) که در معرض هوا قرار دارند، با استفاده از حالت موتور ۱ در Paper Anti-Xray (`engine-mode: 1`).
 
