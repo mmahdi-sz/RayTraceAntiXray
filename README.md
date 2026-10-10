@@ -1,18 +1,24 @@
+<div dir="rtl">
+
 # RayTraceAntiXray
 
-**فارسی** · [English](README_en.md)
+<p align="left" dir="ltr">
+  <a href="README_en.md">English</a> · <b>فارسی</b>
+</p>
 
-پلاگین Paper برای رهگیری پرتو (Ray Tracing) چندنخی و ناهمگام در سمت سرور جهت مخفی‌سازی سنگ‌های معدن (Ores) که در معرض هوا قرار دارند، با استفاده از حالت موتور ۱ در Paper Anti-Xray (`engine-mode: 1`).
+پلاگین Paper برای رهگیری پرتو (Ray Tracing) چندنخی و ناهمگام در سمت سرور، جهت مخفی‌سازی سنگ‌های معدن (Ores) که در معرض هوا قرار دارند، با استفاده از حالت موتور ۱ در Paper Anti-Xray (`engine-mode: 1`).
 
 قابلیت پیش‌فرض Paper Anti-Xray نمی‌تواند سنگ‌های معدنی که در غارها در معرض هوا قرار دارند را مخفی کند (تصویر زیر را مشاهده کنید). این پلاگین به عنوان یک افزونه برای Paper Anti-Xray عمل می‌کند تا این سنگ‌های معدن را نیز مخفی سازد؛ به این صورت که با استفاده از رهگیری پرتو محاسبه می‌کند آیا آن سنگ‌ها برای بازیکنان قابل دیدن هستند یا خیر. همچنین این پلاگین از ماینکرفت 1.20.6 به بعد می‌تواند موجودیت‌های بلوکی (Block Entities) مانند صندوق‌ها (Chests) را به‌طور کامل مخفی کند.
 
-![RayTraceAntiXray](https://user-images.githubusercontent.com/18699205/185815590-4b2efce6-5a26-4579-b079-e9958a454fd0.gif)
+<p align="center" dir="ltr">
+  <img src="https://user-images.githubusercontent.com/18699205/185815590-4b2efce6-5a26-4579-b079-e9958a454fd0.gif" alt="RayTraceAntiXray" />
+</p>
 
 ## نحوه نصب
-* دانلود و نصب [Paper](https://papermc.io/downloads/paper) نسخه 26.3. (پشتیبانی از Folia از ماینکرفت 1.20.1 اضافه شده است).
+* دانلود و نصب [Paper](https://papermc.io/downloads/paper) نسخه 26.3 (پشتیبانی از Folia از ماینکرفت 1.20.1 اضافه شده است).
 * فعال‌سازی [Paper Anti-Xray](https://docs.papermc.io/paper/anti-xray/) با استفاده از `engine-mode: 1`.
 * دانلود و نصب [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/).
-* دانلود و نصب [RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/). (برای نسخه‌های قدیمی‌تر ماینکرفت، تاریخچه به‌روزرسانی‌ها را بررسی کنید).
+* دانلود و نصب [RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/) (برای نسخه‌های قدیمی‌تر ماینکرفت، تاریخچه به‌روزرسانی‌ها را بررسی کنید).
 * پیکربندی RayTraceAntiXray با ویرایش فایل `plugins/RayTraceAntiXray/config.yml`.
 * همچنین ببینید: [تنظیمات پیشنهادی](https://gist.github.com/stonar96/69ca0311392188b7ac2ece226286147f).
 * **توجه:** پس از هر یک از این مراحل باید سرور خود را ری‌استارت کنید. تحت هیچ شرایطی این پلاگین را هنگام روشن بودن سرور فعال، غیرفعال یا ریلود نکنید (مثلاً با دستور `/reload`، پلاگین‌منیجرها و غیره)؛ چرا که به درستی کار نخواهد کرد و مشکل‌ساز خواهد شد.
@@ -23,7 +29,11 @@
 * در حال حاضر راهی برای ریلود (Reload) کردن این پلاگین وجود ندارد.
 
 ## دمو
-![RayTraceAntiXray](https://user-images.githubusercontent.com/18699205/112784731-aed75e00-9052-11eb-92d6-b0dd4af79290.gif)
+<p align="center" dir="ltr">
+  <img src="https://user-images.githubusercontent.com/18699205/112784731-aed75e00-9052-11eb-92d6-b0dd4af79290.gif" alt="RayTraceAntiXray Demo" />
+</p>
 
 ## لایسنس
 فایل [LICENSE](LICENSE) برای **کد منبع** این پروژه اعمال می‌شود. لطفاً **نسخه‌های باینری کامپایل‌شده** یا پروژه‌های مشتق‌شده‌ای که مستقیماً قابل استفاده هستند را مجدداً توزیع نکنید. استفاده به صورت Shading یا استفاده از این پروژه به عنوان کتابخانه برای اهداف دیگر مجاز است.
+
+</div>
